@@ -80,7 +80,7 @@
 &lt;p&gt;可以把数据的宽度理解位容器的大小，它有多少位就代表能存储多少位的二进制数。&lt;/p&gt;
 &lt;p&gt;有符号数和无符号数：&lt;/p&gt;
 &lt;p&gt;概念：无符号数全表示正数，有符号数表示有正数有负数。&lt;/p&gt;
-&lt;img src=&#34;file:///D:/hugo/myblog/content/post/c语言基础-进制/1.png&#34; title=&#34;&#34; alt=&#34;&#34; data-align=&#34;center&#34;&gt;
+&lt;img src=&#34;1.png&#34; title=&#34;&#34; alt=&#34;&#34; data-align=&#34;center&#34;&gt;
 &lt;p&gt;提示：以后我们在表示内存的数据时都会采用16进制，以后大家看到最高位大于等于8的数就能想到他是负数。（前提是有符号数，无符号写的多少就是多少。）&lt;/p&gt;
 &lt;h2 id=&#34;2数据溢出&#34;&gt;2.&lt;strong&gt;数据溢出&lt;/strong&gt;:
 &lt;/h2&gt;&lt;p&gt;所有的容器都是有一定的存储范围的，一旦超出存储范围，它就会从低位到高位存储，多余的舍弃&lt;/p&gt;
